@@ -1,0 +1,27 @@
+.flappy-bird {
+    width: 100%;
+    height: 100vh;
+    background-color: #70c5ce;
+}
+
+.bird {
+    width: 34px;
+    height: 24px;
+    background-image: url('bird.png');
+    background-size: cover;
+    position: absolute;
+}
+
+.pipe {
+    width: 52px;
+    background-color: #0f0;
+    position: absolute;
+}
+
+.score {
+    font-size: 32px;
+    color: #fff;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
